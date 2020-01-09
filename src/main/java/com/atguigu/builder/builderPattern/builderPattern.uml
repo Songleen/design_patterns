@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="190.0" y="184.0">com.atguigu.builder.builderPattern.HighBuilding</node>
+    <node x="158.20833333333331" y="0.0">com.atguigu.builder.builderPattern.House</node>
+    <node x="82.11458333333331" y="97.0">com.atguigu.builder.builderPattern.HouseBuilder</node>
+    <node x="369.0" y="184.0">com.atguigu.builder.builderPattern.CommonHouse</node>
+    <node x="0.0" y="184.0">com.atguigu.builder.builderPattern.HouseDirector</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.atguigu.builder.builderPattern.HouseBuilder" target="com.atguigu.builder.builderPattern.House">
+      <point x="0.0" y="-18.5" />
+      <point x="163.11458333333331" y="77.0" />
+      <point x="203.625" y="77.0" />
+      <point x="-9.083333333333314" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.builder.builderPattern.CommonHouse" target="com.atguigu.builder.builderPattern.House">
+      <point x="45.0" y="-18.5" />
+      <point x="504.0" y="67.0" />
+      <point x="258.125" y="67.0" />
+      <point x="45.416666666666686" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.builder.builderPattern.HouseDirector" target="com.atguigu.builder.builderPattern.HouseBuilder">
+      <point x="56.666666666666686" y="-18.5" />
+      <point x="141.66666666666669" y="164.0" />
+      <point x="142.86458333333331" y="164.0" />
+      <point x="-20.25" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.builder.builderPattern.HighBuilding" target="com.atguigu.builder.builderPattern.HouseBuilder">
+      <point x="-39.75" y="-18.5" />
+      <point x="229.75" y="164.0" />
+      <point x="183.36458333333331" y="164.0" />
+      <point x="20.25" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.builder.builderPattern.HouseDirector" target="com.atguigu.builder.builderPattern.House">
+      <point x="-56.66666666666666" y="-18.5" />
+      <point x="28.333333333333343" y="164.0" />
+      <point x="49.375" y="164.0" />
+      <point x="49.375" y="57.0" />
+      <point x="167.29166666666663" y="57.0" />
+      <point x="-45.416666666666686" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.builder.builderPattern.HighBuilding" target="com.atguigu.builder.builderPattern.House">
+      <point x="39.75" y="-18.5" />
+      <point x="309.25" y="164.0" />
+      <point x="305.125" y="164.0" />
+      <point x="305.125" y="77.0" />
+      <point x="239.95833333333331" y="77.0" />
+      <point x="27.25" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.builder.builderPattern.CommonHouse" target="com.atguigu.builder.builderPattern.HouseBuilder">
+      <point x="-45.0" y="-18.5" />
+      <point x="414.0" y="154.0" />
+      <point x="223.86458333333331" y="154.0" />
+      <point x="60.75" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="179.5" y="62.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

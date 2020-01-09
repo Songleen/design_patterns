@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="497.48653846153854" y="0.0">com.atguigu.factory.factoryMethod.pizza.Pizza</node>
+    <node x="773.4344017094018" y="214.0">com.atguigu.factory.factoryMethod.pizzaFactory.FactoryMethod</node>
+    <node x="359.0" y="107.0">com.atguigu.factory.factoryMethod.pizza.LDCheesePizza</node>
+    <node x="0.0" y="107.0">com.atguigu.factory.factoryMethod.pizza.LDPepperPizza</node>
+    <node x="555.0" y="107.0">com.atguigu.factory.factoryMethod.pizza.BJCheesePizza</node>
+    <node x="746.0" y="107.0">com.atguigu.factory.factoryMethod.pizza.BJPepperPizza</node>
+    <node x="195.0" y="107.0">com.atguigu.factory.factoryMethod.orderPizza.OrderPizza</node>
+    <node x="491.125" y="214.0">com.atguigu.factory.factoryMethod.orderPizza.BJOrderPizza</node>
+    <node x="130.8021367521368" y="214.0">com.atguigu.factory.factoryMethod.orderPizza.LDOrderPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.atguigu.factory.factoryMethod.orderPizza.OrderPizza" target="com.atguigu.factory.factoryMethod.pizza.Pizza">
+      <point x="0.0" y="-18.5" />
+      <point x="267.0" y="77.0" />
+      <point x="525.2643162393163" y="77.0" />
+      <point x="-22.22222222222223" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.orderPizza.BJOrderPizza" target="com.atguigu.factory.factoryMethod.orderPizza.OrderPizza">
+      <point x="-60.0" y="-18.5" />
+      <point x="511.125" y="184.0" />
+      <point x="303.0" y="184.0" />
+      <point x="36.0" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.pizza.LDPepperPizza" target="com.atguigu.factory.factoryMethod.pizza.Pizza">
+      <point x="0.0" y="-18.5" />
+      <point x="87.0" y="57.0" />
+      <point x="503.0420940170941" y="57.0" />
+      <point x="-44.44444444444446" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.orderPizza.LDOrderPizza" target="com.atguigu.factory.factoryMethod.pizza.LDCheesePizza">
+      <point x="61.5" y="-18.5" />
+      <point x="274.3021367521368" y="194.0" />
+      <point x="402.75" y="194.0" />
+      <point x="-43.75" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.orderPizza.BJOrderPizza" target="com.atguigu.factory.factoryMethod.pizza.BJPepperPizza">
+      <point x="60.0" y="-18.5" />
+      <point x="631.125" y="194.0" />
+      <point x="788.5" y="194.0" />
+      <point x="-42.5" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.pizzaFactory.FactoryMethod" target="com.atguigu.factory.factoryMethod.pizza.LDCheesePizza">
+      <point x="-71.19999999999999" y="-18.5" />
+      <point x="791.2344017094017" y="174.0" />
+      <point x="490.25" y="174.0" />
+      <point x="43.75" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.orderPizza.LDOrderPizza" target="com.atguigu.factory.factoryMethod.orderPizza.OrderPizza">
+      <point x="20.5" y="-18.5" />
+      <point x="233.3021367521368" y="194.0" />
+      <point x="231.0" y="194.0" />
+      <point x="-36.0" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.pizza.LDCheesePizza" target="com.atguigu.factory.factoryMethod.pizza.Pizza">
+      <point x="0.0" y="-18.5" />
+      <point x="446.5" y="87.0" />
+      <point x="536.3754273504275" y="87.0" />
+      <point x="-11.111111111111086" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.pizzaFactory.FactoryMethod" target="com.atguigu.factory.factoryMethod.pizza.BJCheesePizza">
+      <point x="-35.59999999999998" y="-18.5" />
+      <point x="826.8344017094018" y="164.0" />
+      <point x="683.25" y="164.0" />
+      <point x="42.75" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.pizza.BJPepperPizza" target="com.atguigu.factory.factoryMethod.pizza.Pizza">
+      <point x="0.0" y="-18.5" />
+      <point x="831.0" y="77.0" />
+      <point x="569.7087606837608" y="77.0" />
+      <point x="22.222222222222285" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.pizzaFactory.FactoryMethod" target="com.atguigu.factory.factoryMethod.pizza.BJPepperPizza">
+      <point x="1.4210854715202004E-14" y="-18.5" />
+      <point x="862.4344017094018" y="194.0" />
+      <point x="873.5" y="194.0" />
+      <point x="42.5" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.pizza.BJCheesePizza" target="com.atguigu.factory.factoryMethod.pizza.Pizza">
+      <point x="0.0" y="-18.5" />
+      <point x="640.5" y="87.0" />
+      <point x="558.5976495726496" y="87.0" />
+      <point x="11.111111111111086" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.orderPizza.LDOrderPizza" target="com.atguigu.factory.factoryMethod.pizza.LDPepperPizza">
+      <point x="-61.5" y="-18.5" />
+      <point x="151.3021367521368" y="194.0" />
+      <point x="87.0" y="194.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.orderPizza.BJOrderPizza" target="com.atguigu.factory.factoryMethod.pizza.BJCheesePizza">
+      <point x="20.0" y="-18.5" />
+      <point x="591.125" y="194.0" />
+      <point x="597.75" y="194.0" />
+      <point x="-42.75" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.orderPizza.LDOrderPizza" target="com.atguigu.factory.factoryMethod.pizza.Pizza">
+      <point x="-20.5" y="-18.5" />
+      <point x="192.3021367521368" y="194.0" />
+      <point x="184.5" y="194.0" />
+      <point x="184.5" y="67.0" />
+      <point x="514.1532051282052" y="67.0" />
+      <point x="-33.333333333333314" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.pizzaFactory.FactoryMethod" target="com.atguigu.factory.factoryMethod.pizza.Pizza">
+      <point x="71.19999999999999" y="-18.5" />
+      <point x="933.6344017094018" y="194.0" />
+      <point x="960.0482905982906" y="194.0" />
+      <point x="960.0482905982906" y="57.0" />
+      <point x="591.930982905983" y="57.0" />
+      <point x="44.44444444444446" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.factoryMethod.orderPizza.BJOrderPizza" target="com.atguigu.factory.factoryMethod.pizza.Pizza">
+      <point x="-20.0" y="-18.5" />
+      <point x="551.125" y="194.0" />
+      <point x="544.5" y="194.0" />
+      <point x="544.5" y="87.0" />
+      <point x="547.4865384615385" y="87.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="486.0" y="126.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,1 @@
+这种普通的方式，当需要新增一个SecondTv时，需要修改使用方WeatherData的代码，违反的ocp原则

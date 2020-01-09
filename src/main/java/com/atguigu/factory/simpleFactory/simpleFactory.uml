@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="169.0">com.atguigu.factory.simpleFactory.pizzaFactory.SimpleFactory</node>
+    <node x="0.0" y="87.0">com.atguigu.factory.simpleFactory.pizza.CheesePizza</node>
+    <node x="340.0" y="87.0">com.atguigu.factory.simpleFactory.pizza.PepperPizza</node>
+    <node x="0.0" y="251.0">com.atguigu.factory.simpleFactory.pizzaStore.PizzaStore</node>
+    <node x="197.5" y="0.0">com.atguigu.factory.simpleFactory.pizza.Pizza</node>
+    <node x="213.0" y="169.0">com.atguigu.factory.simpleFactory.orderPizza.OrderPizza</node>
+    <node x="175.0" y="87.0">com.atguigu.factory.simpleFactory.pizza.GreekPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.atguigu.factory.simpleFactory.pizza.CheesePizza" target="com.atguigu.factory.simpleFactory.pizza.Pizza">
+      <point x="0.0" y="-18.5" />
+      <point x="77.5" y="62.0" />
+      <point x="214.16666666666666" y="62.0" />
+      <point x="-33.33333333333334" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.simpleFactory.pizza.PepperPizza" target="com.atguigu.factory.simpleFactory.pizza.Pizza">
+      <point x="0.0" y="-18.5" />
+      <point x="417.0" y="62.0" />
+      <point x="280.83333333333337" y="62.0" />
+      <point x="33.33333333333337" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.factory.simpleFactory.pizza.GreekPizza" target="com.atguigu.factory.simpleFactory.pizza.Pizza">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="265.0" y="154.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

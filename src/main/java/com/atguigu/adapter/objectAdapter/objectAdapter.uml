@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="152.37499999999997" y="174.0">com.atguigu.adapter.objectAdapter.User</node>
+    <node x="239.99999999999997" y="87.0">com.atguigu.adapter.objectAdapter.HuaWei</node>
+    <node x="0.0" y="0.0">com.atguigu.adapter.objectAdapter.Voltage300V</node>
+    <node x="195.49999999999997" y="0.0">com.atguigu.adapter.objectAdapter.Voltage6V</node>
+    <node x="38.99999999999997" y="87.0">com.atguigu.adapter.objectAdapter.VoltageAdapter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.atguigu.adapter.objectAdapter.User" target="com.atguigu.adapter.objectAdapter.Voltage300V">
+      <point x="-35.625" y="-18.5" />
+      <point x="164.24999999999997" y="154.0" />
+      <point x="28.49999999999997" y="154.0" />
+      <point x="28.49999999999997" y="62.0" />
+      <point x="26.333333333333343" y="62.0" />
+      <point x="-52.66666666666666" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.adapter.objectAdapter.User" target="com.atguigu.adapter.objectAdapter.VoltageAdapter">
+      <point x="-11.875" y="-18.5" />
+      <point x="187.99999999999997" y="144.0" />
+      <point x="129.49999999999997" y="144.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.adapter.objectAdapter.VoltageAdapter" target="com.atguigu.adapter.objectAdapter.Voltage6V">
+      <point x="60.333333333333314" y="-18.5" />
+      <point x="189.8333333333333" y="62.0" />
+      <point x="230.49999999999997" y="62.0" />
+      <point x="-35.0" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.adapter.objectAdapter.VoltageAdapter" target="com.atguigu.adapter.objectAdapter.Voltage300V">
+      <point x="0.0" y="-18.5" />
+      <point x="129.49999999999997" y="62.0" />
+      <point x="131.66666666666663" y="62.0" />
+      <point x="52.66666666666663" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.adapter.objectAdapter.User" target="com.atguigu.adapter.objectAdapter.HuaWei">
+      <point x="35.625" y="-18.5" />
+      <point x="235.49999999999997" y="154.0" />
+      <point x="330.75" y="154.0" />
+      <point x="30.25" y="18.5" />
+    </edge>
+    <edge source="com.atguigu.adapter.objectAdapter.HuaWei" target="com.atguigu.adapter.objectAdapter.Voltage6V">
+      <point x="0.0" y="-18.5" />
+      <point x="35.0" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="180.5" y="105.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
