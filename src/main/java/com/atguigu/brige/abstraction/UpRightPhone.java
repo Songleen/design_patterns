@@ -15,18 +15,18 @@ public class UpRightPhone extends Phone {
     @Override
     public void open() {
         super.open();
-        System.out.println("滑盖手机");
+        System.out.println("滑盖手机开机了！！！");
     }
 
     @Override
     public void call() {
         super.call();
-        System.out.println("滑盖手机");
+        System.out.println("滑盖手机打电话！！！");
     }
 
     @Override
     public void close() {
         super.close();
-        System.out.println("滑盖手机");
+        System.out.println("滑盖手机关机了！！！");
     }
 }

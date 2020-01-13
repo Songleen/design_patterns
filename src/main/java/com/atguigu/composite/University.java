@@ -39,7 +39,7 @@ public class University extends OrganizationComponent {
     //就是输入包含的学院
     @Override
     protected void print() {
-        System.out.println("----------"+getName()+"-------------");
+        System.out.println("----------" + getName() + "-------------");
         for (OrganizationComponent organizationComponent : organizationComponents) {
             organizationComponent.print();
         }

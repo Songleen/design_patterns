@@ -18,7 +18,7 @@ class SimpleController implements Controller {
 }
 
 class AnnotationController implements Controller {
-	public void doAnnotationHandler() {
+	public void AnnotationHandler() {
 		System.out.println("annotation...");
 	}
 }
