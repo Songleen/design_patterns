@@ -16,12 +16,9 @@ public class LazyStyle4 {
 //        System.out.println(singleton1.hashCode());
 //        System.out.println(singleton2.hashCode());
         for (int i = 0; i < 10; i++) {
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    Singleton4 instance = Singleton4.getInstance();
-                    System.out.println(instance.hashCode());
-                }
+            new Thread(() -> {
+                Singleton4 instance = Singleton4.getInstance();
+                System.out.println(instance.hashCode());
             }).start();
         }
     }

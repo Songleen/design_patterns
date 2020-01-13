@@ -10,11 +10,15 @@ package com.atguigu.singleton.lazyStyle;
  */
 public class LazyStyle2 {
     public static void main(String[] args) {
-        Singleton2 singleton1 = Singleton2.getInstance();
-        Singleton2 singleton2 = Singleton2.getInstance();
-        System.out.println(singleton1 == singleton2);
-        System.out.println(singleton1.hashCode());
-        System.out.println(singleton2.hashCode());
+        for (int i = 0; i < 50; i++) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    Singleton2 instance = Singleton2.getInstance();
+                    System.out.println(instance.hashCode());
+                }
+            }).start();
+        }
     }
 }
 
