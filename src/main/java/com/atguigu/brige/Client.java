@@ -11,6 +11,7 @@ import com.atguigu.brige.implementor.Xiaomi;
  *
  * 在这种情况下，想要增加手机类型(如滑盖手机),只需要在abstraction包中增加就行；
  *              想增加手机品牌，在implementor包下增加就行。
+ *              这样无论是增加一款手机还是一个品牌，只会增加一个类。
  */
 public class Client {
     public static void main(String[] args) {

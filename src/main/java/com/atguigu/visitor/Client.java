@@ -16,7 +16,7 @@ public class Client {
     public static void main(String[] args) {
         PersonStructure personStructure = new PersonStructure();
         personStructure.addPerson(new Man());
-        personStructure.addPerson(new Women());
+        // personStructure.addPerson(new Women());
 
         Success success = new Success();
         personStructure.display(success);

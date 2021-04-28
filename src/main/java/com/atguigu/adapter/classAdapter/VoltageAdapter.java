@@ -15,6 +15,7 @@ public class VoltageAdapter extends Voltage220V implements Voltage5V {
     @Override
     public int output5V() {
         int srcV = output220V();   //首先要获取到220v
+        System.out.println("适配成5V!!!");
         int dstV = srcV/44;   //转成5V
         return dstV;
     }

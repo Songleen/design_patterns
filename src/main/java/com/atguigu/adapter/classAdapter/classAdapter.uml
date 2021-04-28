@@ -3,27 +3,27 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="178.0" y="0.0">com.atguigu.adapter.classAdapter.Voltage5V</node>
+    <node x="0.0" y="0.0">com.atguigu.adapter.classAdapter.Voltage5V</node>
     <node x="0.0" y="169.0">com.atguigu.adapter.classAdapter.Phone</node>
-    <node x="0.0" y="0.0">com.atguigu.adapter.classAdapter.Voltage220V</node>
-    <node x="73.0" y="87.0">com.atguigu.adapter.classAdapter.VoltageAdapter</node>
+    <node x="160.0" y="0.0">com.atguigu.adapter.classAdapter.Voltage220V</node>
+    <node x="64.0" y="87.0">com.atguigu.adapter.classAdapter.VoltageAdapter</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.atguigu.adapter.classAdapter.VoltageAdapter" target="com.atguigu.adapter.classAdapter.Voltage5V">
+    <edge source="com.atguigu.adapter.classAdapter.VoltageAdapter" target="com.atguigu.adapter.classAdapter.Voltage220V">
       <point x="45.25" y="-18.5" />
-      <point x="208.75" y="62.0" />
-      <point x="248.0" y="62.0" />
+      <point x="199.75" y="62.0" />
+      <point x="239.0" y="62.0" />
       <point x="0.0" y="18.5" />
     </edge>
-    <edge source="com.atguigu.adapter.classAdapter.VoltageAdapter" target="com.atguigu.adapter.classAdapter.Voltage220V">
+    <edge source="com.atguigu.adapter.classAdapter.VoltageAdapter" target="com.atguigu.adapter.classAdapter.Voltage5V">
       <point x="-45.25" y="-18.5" />
-      <point x="118.25" y="62.0" />
-      <point x="79.0" y="62.0" />
+      <point x="109.25" y="62.0" />
+      <point x="70.0" y="62.0" />
       <point x="0.0" y="18.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="172.5" y="62.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="173.0" y="62.0" />
   <SelectedNodes />
   <Categories />
   <SCOPE>All</SCOPE>

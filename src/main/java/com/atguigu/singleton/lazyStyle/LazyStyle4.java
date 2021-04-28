@@ -7,6 +7,7 @@ package com.atguigu.singleton.lazyStyle;
  * <p>
  * 懒汉式（双重检查）
  * 线程安全，支持懒加载，同时也保证了效率，推荐使用
+ * DCL不是百分百线程安全，因为有指令重排
  */
 public class LazyStyle4 {
     public static void main(String[] args) {
@@ -33,7 +34,9 @@ class Singleton4 {
     }
 
     public static Singleton4 getInstance() {
+
         if (singleton4 == null) {
+
             synchronized (Singleton4.class) {
                 if (singleton4 == null){         //进行第二次检查
                     singleton4 = new Singleton4();

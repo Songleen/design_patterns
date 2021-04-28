@@ -14,8 +14,8 @@ public class Client {
     public static void main(String[] args) {
         Phone huawei = new Huawei();
 
-        huawei = new GiveCurrentTime(huawei);
         huawei = new MusicHuawei(huawei);
+        huawei = new GiveCurrentTime(huawei);
         huawei.call();
     }
 }

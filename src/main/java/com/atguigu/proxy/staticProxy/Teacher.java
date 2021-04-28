@@ -11,4 +11,9 @@ public class Teacher implements ITeacherDao {
     public void teach() {
         System.out.println("老师给我们上课……");
     }
+
+    @Override
+    public void checkHomework() {
+        System.out.println("老师给我们改作业");
+    }
 }

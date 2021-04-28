@@ -29,6 +29,7 @@ public class Client {
         //5、按下灯的开和关按钮
         remote.onButtonWasPushed(0);
         remote.offButtonWasPushed(0);
+        remote.undoButtonWasPushed();
 
         System.out.println("==========使用电视遥控器===========类似");
     }

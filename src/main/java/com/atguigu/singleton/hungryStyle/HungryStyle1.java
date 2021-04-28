@@ -23,9 +23,7 @@ public class HungryStyle1 {
 class Singleton {
 
     //1、私有构造
-    private Singleton() {
-
-    }
+    private Singleton() {}
 
     //2、创建对象实例
     private static final Singleton singleton = new Singleton();

@@ -18,7 +18,6 @@ class SimpleHandlerAdapter implements HandlerAdapter {
 	public boolean supports(Object handler) {
 		return (handler instanceof SimpleController);
 	}
-
 }
 
 class HttpHandlerAdapter implements HandlerAdapter {
